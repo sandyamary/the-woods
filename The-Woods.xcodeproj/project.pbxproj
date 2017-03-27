@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2572A21E887A880045E866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572A11E887A880045E866 /* AppDelegate.swift */; };
+		8A2572A41E887A880045E866 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572A31E887A880045E866 /* SearchViewController.swift */; };
+		8A2572A71E887A880045E866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2572A51E887A880045E866 /* Main.storyboard */; };
+		8A2572A91E887A880045E866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2572A81E887A880045E866 /* Assets.xcassets */; };
+		8A2572AC1E887A880045E866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2572AA1E887A880045E866 /* LaunchScreen.storyboard */; };
+		8A2572B81E8884340045E866 /* TMDBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572B71E8884340045E866 /* TMDBItem.swift */; };
+		8A2572BA1E88898E0045E866 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572B91E88898E0045E866 /* ItemDetailViewController.swift */; };
+		8A2572BC1E888AC10045E866 /* TMDBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572BB1E888AC10045E866 /* TMDBConstants.swift */; };
+		8A2572BE1E888AE00045E866 /* TMDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572BD1E888AE00045E866 /* TMDBClient.swift */; };
+		8A2572C01E888BA70045E866 /* TMDBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572BF1E888BA70045E866 /* TMDBConfig.swift */; };
+		8A2572C21E888C650045E866 /* TMDBConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572C11E888C650045E866 /* TMDBConvenience.swift */; };
+		8A2572C41E888DC10045E866 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2572C31E888DC10045E866 /* GCDBlackBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A25729E1E887A880045E866 /* The-Woods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The-Woods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2572A11E887A880045E866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A2572A31E887A880045E866 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8A2572A61E887A880045E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A2572A81E887A880045E866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A2572AB1E887A880045E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2572AD1E887A880045E866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2572B71E8884340045E866 /* TMDBItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBItem.swift; sourceTree = "<group>"; };
+		8A2572B91E88898E0045E866 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		8A2572BB1E888AC10045E866 /* TMDBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConstants.swift; sourceTree = "<group>"; };
+		8A2572BD1E888AE00045E866 /* TMDBClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBClient.swift; sourceTree = "<group>"; };
+		8A2572BF1E888BA70045E866 /* TMDBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConfig.swift; sourceTree = "<group>"; };
+		8A2572C11E888C650045E866 /* TMDBConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDBConvenience.swift; sourceTree = "<group>"; };
+		8A2572C31E888DC10045E866 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A25729B1E887A880045E866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A2572951E887A880045E866 = {
+			isa = PBXGroup;
+			children = (
+				8A2572A01E887A880045E866 /* The-Woods */,
+				8A25729F1E887A880045E866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A25729F1E887A880045E866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A25729E1E887A880045E866 /* The-Woods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2572A01E887A880045E866 /* The-Woods */ = {
+			isa = PBXGroup;
+			children = (
+				8A2572A11E887A880045E866 /* AppDelegate.swift */,
+				8A2572C31E888DC10045E866 /* GCDBlackBox.swift */,
+				8A2572B61E8883430045E866 /* Supporting Files */,
+				8A2572B51E88832D0045E866 /* Controllers */,
+				8A2572B31E8882340045E866 /* Model */,
+			);
+			path = "The-Woods";
+			sourceTree = "<group>";
+		};
+		8A2572B31E8882340045E866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A2572B41E88825B0045E866 /* TMDB */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8A2572B41E88825B0045E866 /* TMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8A2572BB1E888AC10045E866 /* TMDBConstants.swift */,
+				8A2572B71E8884340045E866 /* TMDBItem.swift */,
+				8A2572BD1E888AE00045E866 /* TMDBClient.swift */,
+				8A2572BF1E888BA70045E866 /* TMDBConfig.swift */,
+				8A2572C11E888C650045E866 /* TMDBConvenience.swift */,
+			);
+			name = TMDB;
+			sourceTree = "<group>";
+		};
+		8A2572B51E88832D0045E866 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A2572A31E887A880045E866 /* SearchViewController.swift */,
+				8A2572B91E88898E0045E866 /* ItemDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8A2572B61E8883430045E866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2572A51E887A880045E866 /* Main.storyboard */,
+				8A2572AA1E887A880045E866 /* LaunchScreen.storyboard */,
+				8A2572A81E887A880045E866 /* Assets.xcassets */,
+				8A2572AD1E887A880045E866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A25729D1E887A880045E866 /* The-Woods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2572B01E887A880045E866 /* Build configuration list for PBXNativeTarget "The-Woods" */;
+			buildPhases = (
+				8A25729A1E887A880045E866 /* Sources */,
+				8A25729B1E887A880045E866 /* Frameworks */,
+				8A25729C1E887A880045E866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The-Woods";
+			productName = "The-Woods";
+			productReference = 8A25729E1E887A880045E866 /* The-Woods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2572961E887A880045E866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Udumala, Mary";
+				TargetAttributes = {
+					8A25729D1E887A880045E866 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AF59P86GL6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A2572991E887A880045E866 /* Build configuration list for PBXProject "The-Woods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A2572951E887A880045E866;
+			productRefGroup = 8A25729F1E887A880045E866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A25729D1E887A880045E866 /* The-Woods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A25729C1E887A880045E866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2572AC1E887A880045E866 /* LaunchScreen.storyboard in Resources */,
+				8A2572A91E887A880045E866 /* Assets.xcassets in Resources */,
+				8A2572A71E887A880045E866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A25729A1E887A880045E866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2572BA1E88898E0045E866 /* ItemDetailViewController.swift in Sources */,
+				8A2572A41E887A880045E866 /* SearchViewController.swift in Sources */,
+				8A2572B81E8884340045E866 /* TMDBItem.swift in Sources */,
+				8A2572C01E888BA70045E866 /* TMDBConfig.swift in Sources */,
+				8A2572C21E888C650045E866 /* TMDBConvenience.swift in Sources */,
+				8A2572BE1E888AE00045E866 /* TMDBClient.swift in Sources */,
+				8A2572BC1E888AC10045E866 /* TMDBConstants.swift in Sources */,
+				8A2572C41E888DC10045E866 /* GCDBlackBox.swift in Sources */,
+				8A2572A21E887A880045E866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A2572A51E887A880045E866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2572A61E887A880045E866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A2572AA1E887A880045E866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2572AB1E887A880045E866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A2572AE1E887A880045E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A2572AF1E887A880045E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A2572B11E887A880045E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AF59P86GL6;
+				INFOPLIST_FILE = "The-Woods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarysDisney.The-Woods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A2572B21E887A880045E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AF59P86GL6;
+				INFOPLIST_FILE = "The-Woods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarysDisney.The-Woods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2572991E887A880045E866 /* Build configuration list for PBXProject "The-Woods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2572AE1E887A880045E866 /* Debug */,
+				8A2572AF1E887A880045E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2572B01E887A880045E866 /* Build configuration list for PBXNativeTarget "The-Woods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2572B11E887A880045E866 /* Debug */,
+				8A2572B21E887A880045E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2572961E887A880045E866 /* Project object */;
+}
